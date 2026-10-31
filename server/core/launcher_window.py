@@ -130,7 +130,7 @@ class ServerLauncher(tk.Tk):
         self.v_port = tk.StringVar(value="1757")
         tk.Entry(pf2, textvariable=self.v_port, bg=SURF, fg=PARCH,
                  insertbackground=AMBER, relief="flat", font=("Consolas",10), bd=6).pack(fill="x")
-        _hint(self, "Forward 1757–1762 (UDP+TCP) for remote players, plus UDP 1770 for TavernVoice.")
+        _hint(self, "Forward 1757–1762 (UDP+TCP) for remote players.")
         _divider(self)
         self._sv_name_var = tk.StringVar(value="—")
         nf = tk.Frame(self, bg=SURF, highlightbackground=BORDER, highlightthickness=1)
